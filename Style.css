@@ -4,6 +4,7 @@ body {
     background-color: rgb(232, 237, 241);
 }
 
+/* Navbar */
 .nav-link {
     font-family: 'League Spartan', sans-serif;
 
@@ -77,13 +78,72 @@ body {
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
     -webkit-appearance: none;
     margin: 0;
-    /* <-- Apparently some margin are still there even though it's hidden */
+
 }
 
 input[type=number] {
     -moz-appearance: textfield;
-    /* Firefox */
+
+}
+
+
+
+/* Footer */
+
+.site-footer {
+    background-color: #f8f9fa;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    height: 40vh;
+    line-height: 24px;
+    color: #737373;
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: rgb(252, 102, 64);
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.site-footer a {
+    color: #737373;
+    font-size: 20px;
+}
+
+.contact {
+    font-size: 20px;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+}
+
+
+
+.footer-links.inline li {
+    display: inline-block
+}
+
+
+.copyright-text {
+    margin: 0
 }

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500&family=Noto+Sans:wght@100&family=PT+Sans+Narrow&display=swap');
+
+body {
+    background-color: rgb(232, 237, 241);
+}
+
+.nav-link {
+    font-family: 'League Spartan', sans-serif;
+
+    font-family: 'Noto Sans', sans-serif;
+
+    font-family: 'PT Sans Narrow', sans-serif;
+
+    font-size: 25px;
+    color: rgb(252, 102, 64) !important;
+    margin: 10px
+}
+
+.nav-link:hover {
+    margin-top: 5px;
+    border-bottom: 5px solid;
+}
+
+.loginbtn {
+    font-family: 'League Spartan', sans-serif;
+
+    font-family: 'Noto Sans', sans-serif;
+
+    font-family: 'PT Sans Narrow', sans-serif;
+
+    font-size: 25px;
+    color: rgb(252, 102, 64) !important;
+    font-size: 20px;
+    width: 150px;
+}
+
+.loginbtn:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(24, 18, 16)
+}
+
+.regbtn {
+    font-family: 'League Spartan', sans-serif;
+
+    font-family: 'Noto Sans', sans-serif;
+
+    font-family: 'PT Sans Narrow', sans-serif;
+
+    font-size: 25px;
+    color: rgb(252, 102, 64) !important;
+    font-size: 20px;
+    width: 150px;
+}
+
+.regbtn:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(24, 18, 16)
+}
+
+.service-title {
+    font-size: 60px;
+    font-weight: 800;
+    font-family: cursive;
+}
+
+.mid-text {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-text {
+    text-align: justify;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    /* Firefox */
+}
